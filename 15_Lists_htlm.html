@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul#season li  {
+display:inline;
+}
+
+ul#menu {
+padding:0;
+}
+
+ul#menu li {
+display:inline;
+}
+
+ul#menu li a {
+background-color: orange;
+color: white;
+padding: 10px 20px;
+border-radius: 4px 4px 0 0;
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+<h1>Unordered HTML Lists</h1>
+<ul>Working days
+<li>Mn</li>
+<li>Tu</li>
+<li>We</li>
+<li>Th</li>
+<li>Fr</li>
+</ul>
+
+<!--  Style	Description
+list-style-type:disc	The list items will be marked with bullets (default)
+list-style-type:circle	The list items will be marked with circles
+list-style-type:square	The list items will be marked with squares
+list-style-type:none	The list items will not be marked
+-->
+
+<h1>The Style Attribute</h1>
+<ul style="list-style-type:circle"> My favorite colors:
+<li>white</li>
+<li>orange</li>
+<li>green</li>
+</ul>
+
+<h1>NONE Style Attribute</h1>
+<ul id="season" style="list-style-type:none"> There are 4 seasons:
+<li>winter</li>
+<li>spring</li>
+<li>summer</li>
+<li>autumn</li>
+</ul>
+
+
+<h1>Ordered HTML Lists and styles</h1>
+<ol type="1">
+  <li>Jack</li>
+  <li>Joe</li>
+  <li>Mary</li>
+</ol>
+
+<ol type="1">
+  <li>Live</li>
+  <li>Think</li>
+  <li>Do</li>
+</ol>
+
+<!-- A type attribute can be added to an ordered list, to define the type of the marker:
+
+Type	Description
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+-->
+
+<h1>HTML Description Lists</h1>
+
+<!-- A description list is a list of terms, with a description of each term.
+
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+-->
+
+<dl>
+<dt> Cookies</dt>
+<dd> sugar</dd>
+<dd> milk</dd>
+<dd> flour</dd>
+
+<h1>Nested HTML Lists</h1>
+
+<p>List can be nested (lists inside lists):</p>
+
+<h1>Ordered HTML Lists and styles</h1>
+<ol type="1">
+  <li>Jack
+	<ul> 
+	  <li>his sister</li>
+	  <li>his brother</li>
+	  <li>his granny</li>
+	  </ul>
+	</li>
+  <li>Joe</li>
+  <li>Mary</li>
+</ol>
+
+
+<h1>Horizontal Lists</h1>
+<ul id="menu">
+  <li><a href="#">Menu</a></li>
+  <li><a href="#">News</a></li>
+  <li><a href="#">About us</a></li>
+</ul>
+
+</body>
+</html>

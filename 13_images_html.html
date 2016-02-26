@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img#mount {
+width: 100%}
+</style>
+</head>
+
+
+
+<body>
+
+<h1>Nature</h1>
+
+<!-- It is better to use the style attribute (instead of the width and height attributes), because it prevents internal
+or external styles sheets to change the original size of an image:  -->
+
+<img id="mount" src ="images/mountain.jpg" alt = "mountain" style="width:300px; height:200px;"> 
+
+<img src ="images/river.jpg" alt="river" width="300px" height="200px">
+
+<img src = "http://www.w3schools.com/images/w3schools_green.jpg" alt="w3schools">
+<p> bla bla bla bla bla bla bla  </p>
+<br>
+<p> bla bla bla bla bla bla bla  </p>
+<br>
+<p> bla bla bla bla bla bla bla  </p>
+
+<h1>Using an Image as a Link. Floating. Mapping</h1>
+<a href="http://newacropolis.org.ua">
+<img src="images/kometa.jpg" alt="kometa"  style="float:center; width:400px; height:300px; border:0"> </a>
+
+<img id="mount" src ="images/mountain.jpg" alt = "mountain" usemap="mount" style="width:300px; height:200px;"> 
+<map name="mount">
+  <area shape="rect" coords="0,0,82,126" alt="moun" href="images/river.jpg">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="images/kometa.jpg">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="pyramida.jpg">
+</map>
+
+</body>
+</html> 
